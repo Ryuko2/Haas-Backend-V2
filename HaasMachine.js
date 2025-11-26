@@ -97,7 +97,7 @@ class HaasMachine {
     if (type === 'LASER') {
       this.laserPower = 0;
       this.maxLaserPower = specs.maxLaserPower || 6000; // Watts
-      this.gasPress ure = 240; // PSI
+      this.gasPressure = 240; // PSI
       this.resonatorTemp = 26;
       this.cutSpeed = 0;
     }
